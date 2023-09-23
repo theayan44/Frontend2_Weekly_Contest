@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: block;
+    font-size: 18px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: rgb(217, 217, 217);
+    /* height: 100vh; */
+}
+
+.search,
+.sort {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.search>input {
+    height: 35px;
+    width: 85%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 15%;
+    padding: 8px 0px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.student-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#show {
+    display: table;
+}
+
+#hide {
+    display: none;
+}
